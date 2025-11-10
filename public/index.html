@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIKKE Team Planner</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>NIKKE Team Planner</h1>
+      <p>
+        Crea equipos de cinco Nikkes, consulta sus habilidades y analiza todas las
+        estadísticas oficiales en un solo lugar.
+      </p>
+      <div class="data-source" role="status" aria-live="polite"></div>
+    </header>
+    <main>
+      <section class="team" aria-labelledby="team-title">
+        <div class="team-header">
+          <h2 id="team-title">Tu escuadra</h2>
+          <button class="team-reset" type="button">Limpiar equipo</button>
+        </div>
+        <div class="team-slots" role="list"></div>
+        <dl class="team-summary">
+          <div>
+            <dt>Poder total</dt>
+            <dd data-summary="power">0</dd>
+          </div>
+          <div>
+            <dt>HP total</dt>
+            <dd data-summary="hp">0</dd>
+          </div>
+          <div>
+            <dt>ATK total</dt>
+            <dd data-summary="atk">0</dd>
+          </div>
+          <div>
+            <dt>DEF total</dt>
+            <dd data-summary="def">0</dd>
+          </div>
+        </dl>
+      </section>
+      <section class="filters" aria-labelledby="filters-title">
+        <h2 id="filters-title">Buscar Nikkes</h2>
+        <label class="search-label">
+          <span>Filtrar por nombre, rol, fabricante, etc.</span>
+          <input type="search" id="search" placeholder="Buscar..." autocomplete="off" />
+        </label>
+        <div class="filter-tags" role="list"></div>
+      </section>
+      <section class="catalog" aria-labelledby="catalog-title">
+        <h2 id="catalog-title">Personajes disponibles</h2>
+        <div class="catalog-grid" role="list"></div>
+      </section>
+      <aside class="details" aria-labelledby="details-title">
+        <h2 id="details-title">Detalles</h2>
+        <p class="details-empty">Selecciona un Nikke para ver toda su información.</p>
+        <div class="details-content" hidden>
+          <header class="details-header"></header>
+          <section>
+            <h3>Campos principales</h3>
+            <table class="details-table">
+              <tbody></tbody>
+            </table>
+          </section>
+          <section class="skill-section">
+            <h3>Habilidades</h3>
+            <div class="skills" role="list"></div>
+          </section>
+        </div>
+      </aside>
+    </main>
+    <template id="character-card">
+      <article class="character-card" role="listitem" tabindex="0">
+        <div class="character-avatar" aria-hidden="true"></div>
+        <div class="character-body">
+          <header>
+            <h3 class="character-name"></h3>
+            <p class="character-meta"></p>
+          </header>
+          <dl class="character-stats"></dl>
+        </div>
+        <button class="character-add" type="button" title="Añadir al equipo">
+          Añadir
+        </button>
+      </article>
+    </template>
+    <template id="skill-template">
+      <article class="skill-card" role="listitem">
+        <header>
+          <h4 class="skill-name"></h4>
+          <p class="skill-meta"></p>
+        </header>
+        <dl class="skill-details"></dl>
+      </article>
+    </template>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
