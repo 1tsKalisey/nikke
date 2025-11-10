@@ -1,0 +1,2440 @@
+{
+  "version": "1.0.0",
+  "source": "NIKKE Official Game Data",
+  "generated_at": "2024-12-27",
+  "total_characters": 64,
+  "characters": [
+    {
+      "id": 90,
+      "name": "90_name",
+      "rarity": "SSR",
+      "element": "Electric",
+      "class": "Supporter",
+      "corporation": "ELYSION",
+      "squad": "Absolute",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 35,
+      "coverage_range_max": 55,
+      "skill1": {
+        "id": 2090101,
+        "name": "Skill_2090101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2090201,
+        "name": "Skill_2090201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1090301,
+        "name": "Burst_1090301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10001,
+      "piece_id": 5100090,
+      "cv": "90_cv",
+      "prism_active": false
+    },
+    {
+      "id": 170,
+      "name": "170_name",
+      "rarity": "SSR",
+      "element": "Fire",
+      "class": "Attacker",
+      "corporation": "ELYSION",
+      "squad": "Triangle",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 2170101,
+        "name": "Skill_2170101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2170201,
+        "name": "Skill_2170201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1170301,
+        "name": "Burst_1170301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10002,
+      "piece_id": 5100170,
+      "cv": "170_cv",
+      "prism_active": false
+    },
+    {
+      "id": 22,
+      "name": "22_name",
+      "rarity": "SSR",
+      "element": "Electric",
+      "class": "Attacker",
+      "corporation": "ELYSION",
+      "squad": "Scouting",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 15,
+      "coverage_range_max": 35,
+      "skill1": {
+        "id": 2022101,
+        "name": "Skill_2022101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2022201,
+        "name": "Skill_2022201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1022301,
+        "name": "Burst_1022301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10003,
+      "piece_id": 5100022,
+      "cv": "22_cv",
+      "prism_active": false
+    },
+    {
+      "id": 30,
+      "name": "30_name",
+      "rarity": "SSR",
+      "element": "Fire",
+      "class": "Defender",
+      "corporation": "ELYSION",
+      "squad": "ACPU",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 25,
+      "skill1": {
+        "id": 2030101,
+        "name": "Skill_2030101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1030201,
+        "name": "Skill_1030201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1030301,
+        "name": "Burst_1030301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10004,
+      "piece_id": 5100030,
+      "cv": "30_cv",
+      "prism_active": false
+    },
+    {
+      "id": 32,
+      "name": "32_name",
+      "rarity": "SSR",
+      "element": "Electric",
+      "class": "Supporter",
+      "corporation": "ELYSION",
+      "squad": "ACPU",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 15,
+      "coverage_range_max": 35,
+      "skill1": {
+        "id": 2032101,
+        "name": "Skill_2032101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2032201,
+        "name": "Skill_2032201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1032301,
+        "name": "Burst_1032301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10005,
+      "piece_id": 5100032,
+      "cv": "32_cv",
+      "prism_active": false
+    },
+    {
+      "id": 70,
+      "name": "70_name",
+      "rarity": "SSR",
+      "element": "Fire",
+      "class": "Attacker",
+      "corporation": "ELYSION",
+      "squad": "InfinityRail",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 2070101,
+        "name": "Skill_2070101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1070201,
+        "name": "Skill_1070201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1070301,
+        "name": "Burst_1070301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10006,
+      "piece_id": 5100070,
+      "cv": "70_cv",
+      "prism_active": false
+    },
+    {
+      "id": 71,
+      "name": "71_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Attacker",
+      "corporation": "ELYSION",
+      "squad": "InfinityRail",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 15,
+      "coverage_range_max": 35,
+      "skill1": {
+        "id": 2071101,
+        "name": "Skill_2071101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2071201,
+        "name": "Skill_2071201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1071301,
+        "name": "Burst_1071301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10007,
+      "piece_id": 5100071,
+      "cv": "71_cv",
+      "prism_active": false
+    },
+    {
+      "id": 72,
+      "name": "72_name",
+      "rarity": "SSR",
+      "element": "Water",
+      "class": "Defender",
+      "corporation": "ELYSION",
+      "squad": "InfinityRail",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 35,
+      "coverage_range_max": 55,
+      "skill1": {
+        "id": 2072101,
+        "name": "Skill_2072101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2072201,
+        "name": "Skill_2072201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1072301,
+        "name": "Burst_1072301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10008,
+      "piece_id": 5100072,
+      "cv": "72_cv",
+      "prism_active": false
+    },
+    {
+      "id": 91,
+      "name": "91_name",
+      "rarity": "SSR",
+      "element": "Fire",
+      "class": "Attacker",
+      "corporation": "ELYSION",
+      "squad": "Absolute",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2091101,
+        "name": "Skill_2091101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2091201,
+        "name": "Skill_2091201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1091301,
+        "name": "Burst_1091301",
+        "description": "No description available",
+        "cooldown": 500
+      },
+      "order": 10009,
+      "piece_id": 5100091,
+      "cv": "91_cv",
+      "prism_active": false
+    },
+    {
+      "id": 92,
+      "name": "92_name",
+      "rarity": "SSR",
+      "element": "Electric",
+      "class": "Attacker",
+      "corporation": "ELYSION",
+      "squad": "Absolute",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 2092101,
+        "name": "Skill_2092101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2092201,
+        "name": "Skill_2092201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1092301,
+        "name": "Burst_1092301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10010,
+      "piece_id": 5100092,
+      "cv": "92_cv",
+      "prism_active": false
+    },
+    {
+      "id": 180,
+      "name": "180_name",
+      "rarity": "SSR",
+      "element": "Wind",
+      "class": "Attacker",
+      "corporation": "ELYSION",
+      "squad": "External",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 35,
+      "coverage_range_max": 55,
+      "skill1": {
+        "id": 2180101,
+        "name": "Skill_2180101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2180201,
+        "name": "Skill_2180201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1180301,
+        "name": "Burst_1180301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10011,
+      "piece_id": 5100180,
+      "cv": "180_cv",
+      "prism_active": false
+    },
+    {
+      "id": 181,
+      "name": "181_name",
+      "rarity": "SSR",
+      "element": "Wind",
+      "class": "Attacker",
+      "corporation": "ELYSION",
+      "squad": "External",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 25,
+      "skill1": {
+        "id": 2181101,
+        "name": "Skill_2181101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1181201,
+        "name": "Skill_1181201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1181301,
+        "name": "Burst_1181301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10012,
+      "piece_id": 5100181,
+      "cv": "181_cv",
+      "prism_active": false
+    },
+    {
+      "id": 352,
+      "name": "352_name",
+      "rarity": "SSR",
+      "element": "Fire",
+      "class": "Attacker",
+      "corporation": "ELYSION",
+      "squad": "Aegis",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 2352101,
+        "name": "Skill_2352101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2352201,
+        "name": "Skill_2352201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1352301,
+        "name": "Burst_1352301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10021,
+      "piece_id": 5100352,
+      "cv": "352_cv",
+      "prism_active": false
+    },
+    {
+      "id": 102,
+      "name": "102_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Attacker",
+      "corporation": "MISSILIS",
+      "squad": "Matis",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 2102101,
+        "name": "Skill_2102101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2102201,
+        "name": "Skill_2102201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1102301,
+        "name": "Burst_1102301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10030,
+      "piece_id": 5100102,
+      "cv": "102_cv",
+      "prism_active": false
+    },
+    {
+      "id": 160,
+      "name": "160_name",
+      "rarity": "SSR",
+      "element": "Electric",
+      "class": "Defender",
+      "corporation": "MISSILIS",
+      "squad": "Wardress",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2160101,
+        "name": "Skill_2160101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2160201,
+        "name": "Skill_2160201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1160301,
+        "name": "Burst_1160301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10031,
+      "piece_id": 5100160,
+      "cv": "160_cv",
+      "prism_active": false
+    },
+    {
+      "id": 82,
+      "name": "82_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Supporter",
+      "corporation": "MISSILIS",
+      "squad": "MightyTools",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 15,
+      "coverage_range_max": 35,
+      "skill1": {
+        "id": 2082101,
+        "name": "Skill_2082101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1082201,
+        "name": "Skill_1082201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1082301,
+        "name": "Burst_1082301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10032,
+      "piece_id": 5100082,
+      "cv": "82_cv",
+      "prism_active": false
+    },
+    {
+      "id": 150,
+      "name": "150_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Attacker",
+      "corporation": "MISSILIS",
+      "squad": "MasterHand",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 1150101,
+        "name": "Skill_1150101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2150201,
+        "name": "Skill_2150201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1150301,
+        "name": "Burst_1150301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10033,
+      "piece_id": 5100150,
+      "cv": "150_cv",
+      "prism_active": false
+    },
+    {
+      "id": 80,
+      "name": "80_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Defender",
+      "corporation": "MISSILIS",
+      "squad": "MightyTools",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2080101,
+        "name": "Skill_2080101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1080201,
+        "name": "Skill_1080201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1080301,
+        "name": "Burst_1080301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10034,
+      "piece_id": 5100080,
+      "cv": "80_cv",
+      "prism_active": false
+    },
+    {
+      "id": 101,
+      "name": "101_name",
+      "rarity": "SSR",
+      "element": "Electric",
+      "class": "Attacker",
+      "corporation": "MISSILIS",
+      "squad": "Matis",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 25,
+      "skill1": {
+        "id": 2101101,
+        "name": "Skill_2101101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2101201,
+        "name": "Skill_2101201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1101301,
+        "name": "Burst_1101301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10035,
+      "piece_id": 5100101,
+      "cv": "101_cv",
+      "prism_active": false
+    },
+    {
+      "id": 110,
+      "name": "110_name",
+      "rarity": "SSR",
+      "element": "Electric",
+      "class": "Defender",
+      "corporation": "MISSILIS",
+      "squad": "Exotic",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 15,
+      "coverage_range_max": 35,
+      "skill1": {
+        "id": 2110101,
+        "name": "Skill_2110101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2110201,
+        "name": "Skill_2110201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1110301,
+        "name": "Burst_1110301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10036,
+      "piece_id": 5100110,
+      "cv": "110_cv",
+      "prism_active": false
+    },
+    {
+      "id": 131,
+      "name": "131_name",
+      "rarity": "SSR",
+      "element": "Water",
+      "class": "Supporter",
+      "corporation": "MISSILIS",
+      "squad": "Seraphim",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 25,
+      "skill1": {
+        "id": 2131101,
+        "name": "Skill_2131101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1131201,
+        "name": "Skill_1131201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1131301,
+        "name": "Burst_1131301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10037,
+      "piece_id": 5100131,
+      "cv": "131_cv",
+      "prism_active": false
+    },
+    {
+      "id": 172,
+      "name": "172_name",
+      "rarity": "SSR",
+      "element": "Water",
+      "class": "Supporter",
+      "corporation": "MISSILIS",
+      "squad": "Triangle",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 2172101,
+        "name": "Skill_2172101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1172201,
+        "name": "Skill_1172201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1172301,
+        "name": "Burst_1172301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10038,
+      "piece_id": 5100172,
+      "cv": "172_cv",
+      "prism_active": false
+    },
+    {
+      "id": 100,
+      "name": "100_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Attacker",
+      "corporation": "MISSILIS",
+      "squad": "Matis",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2100101,
+        "name": "Skill_2100101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2100201,
+        "name": "Skill_2100201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1100301,
+        "name": "Burst_1100301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10041,
+      "piece_id": 5100100,
+      "cv": "100_cv",
+      "prism_active": false
+    },
+    {
+      "id": 241,
+      "name": "241_name",
+      "rarity": "SSR",
+      "element": "Water",
+      "class": "Attacker",
+      "corporation": "MISSILIS",
+      "squad": "LifeTonic",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 15,
+      "coverage_range_max": 35,
+      "skill1": {
+        "id": 2241101,
+        "name": "Skill_2241101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2241201,
+        "name": "Skill_2241201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1241301,
+        "name": "Burst_1241301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10055,
+      "piece_id": 5100241,
+      "cv": "241_cv",
+      "prism_active": false
+    },
+    {
+      "id": 140,
+      "name": "140_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Attacker",
+      "corporation": "TETRA",
+      "squad": "CafeSweety",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 25,
+      "skill1": {
+        "id": 2140101,
+        "name": "Skill_2140101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2140201,
+        "name": "Skill_2140201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1140301,
+        "name": "Burst_1140301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10056,
+      "piece_id": 5100140,
+      "cv": "140_cv",
+      "prism_active": false
+    },
+    {
+      "id": 210,
+      "name": "210_name",
+      "rarity": "SSR",
+      "element": "Wind",
+      "class": "Supporter",
+      "corporation": "TETRA",
+      "squad": "Protocol",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 2210101,
+        "name": "Skill_2210101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2210201,
+        "name": "Skill_2210201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1210301,
+        "name": "Burst_1210301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10057,
+      "piece_id": 5100210,
+      "cv": "210_cv",
+      "prism_active": false
+    },
+    {
+      "id": 191,
+      "name": "191_name",
+      "rarity": "SSR",
+      "element": "Electric",
+      "class": "Attacker",
+      "corporation": "TETRA",
+      "squad": "Unlimited",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 2191101,
+        "name": "Skill_2191101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2191201,
+        "name": "Skill_2191201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1191301,
+        "name": "Burst_1191301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10058,
+      "piece_id": 5100191,
+      "cv": "191_cv",
+      "prism_active": false
+    },
+    {
+      "id": 142,
+      "name": "142_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Supporter",
+      "corporation": "TETRA",
+      "squad": "CafeSweety",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 2142101,
+        "name": "Skill_2142101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2142201,
+        "name": "Skill_2142201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1142301,
+        "name": "Burst_1142301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10061,
+      "piece_id": 5100142,
+      "cv": "142_cv",
+      "prism_active": false
+    },
+    {
+      "id": 130,
+      "name": "130_name",
+      "rarity": "SSR",
+      "element": "Fire",
+      "class": "Supporter",
+      "corporation": "TETRA",
+      "squad": "Seraphim",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 25,
+      "skill1": {
+        "id": 2130101,
+        "name": "Skill_2130101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2130201,
+        "name": "Skill_2130201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1130301,
+        "name": "Burst_1130301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10062,
+      "piece_id": 5100130,
+      "cv": "130_cv",
+      "prism_active": false
+    },
+    {
+      "id": 141,
+      "name": "141_name",
+      "rarity": "SSR",
+      "element": "Fire",
+      "class": "Attacker",
+      "corporation": "TETRA",
+      "squad": "CafeSweety",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 1141101,
+        "name": "Skill_1141101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2141201,
+        "name": "Skill_2141201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1141301,
+        "name": "Burst_1141301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10063,
+      "piece_id": 5100141,
+      "cv": "141_cv",
+      "prism_active": false
+    },
+    {
+      "id": 171,
+      "name": "171_name",
+      "rarity": "SSR",
+      "element": "Electric",
+      "class": "Attacker",
+      "corporation": "TETRA",
+      "squad": "Triangle",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 2171101,
+        "name": "Skill_2171101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1171201,
+        "name": "Skill_1171201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1171301,
+        "name": "Burst_1171301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10064,
+      "piece_id": 5100171,
+      "cv": "171_cv",
+      "prism_active": false
+    },
+    {
+      "id": 190,
+      "name": "190_name",
+      "rarity": "SSR",
+      "element": "Fire",
+      "class": "Defender",
+      "corporation": "TETRA",
+      "squad": "Unlimited",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 15,
+      "coverage_range_max": 35,
+      "skill1": {
+        "id": 2190101,
+        "name": "Skill_2190101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2190201,
+        "name": "Skill_2190201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1190301,
+        "name": "Burst_1190301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10065,
+      "piece_id": 5100190,
+      "cv": "190_cv",
+      "prism_active": false
+    },
+    {
+      "id": 200,
+      "name": "200_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Attacker",
+      "corporation": "TETRA",
+      "squad": "Talentum",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 2200101,
+        "name": "Skill_2200101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2200201,
+        "name": "Skill_2200201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1200301,
+        "name": "Burst_1200301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10066,
+      "piece_id": 5100200,
+      "cv": "200_cv",
+      "prism_active": false
+    },
+    {
+      "id": 201,
+      "name": "201_name",
+      "rarity": "SSR",
+      "element": "Electric",
+      "class": "Supporter",
+      "corporation": "TETRA",
+      "squad": "Talentum",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2201101,
+        "name": "Skill_2201101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2201201,
+        "name": "Skill_2201201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1201301,
+        "name": "Burst_1201301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10067,
+      "piece_id": 5100201,
+      "cv": "201_cv",
+      "prism_active": false
+    },
+    {
+      "id": 202,
+      "name": "202_name",
+      "rarity": "SSR",
+      "element": "Water",
+      "class": "Supporter",
+      "corporation": "TETRA",
+      "squad": "Talentum",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 1202101,
+        "name": "Skill_1202101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2202201,
+        "name": "Skill_2202201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1202301,
+        "name": "Burst_1202301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10068,
+      "piece_id": 5100202,
+      "cv": "202_cv",
+      "prism_active": false
+    },
+    {
+      "id": 212,
+      "name": "212_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Defender",
+      "corporation": "TETRA",
+      "squad": "Protocol",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 15,
+      "coverage_range_max": 35,
+      "skill1": {
+        "id": 1212101,
+        "name": "Skill_1212101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2212201,
+        "name": "Skill_2212201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1212301,
+        "name": "Burst_1212301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10069,
+      "piece_id": 5100212,
+      "cv": "212_cv",
+      "prism_active": false
+    },
+    {
+      "id": 242,
+      "name": "242_name",
+      "rarity": "SSR",
+      "element": "Fire",
+      "class": "Defender",
+      "corporation": "TETRA",
+      "squad": "LifeTonic",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 1242101,
+        "name": "Skill_1242101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1242201,
+        "name": "Skill_1242201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1242301,
+        "name": "Burst_1242301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10070,
+      "piece_id": 5100242,
+      "cv": "242_cv",
+      "prism_active": false
+    },
+    {
+      "id": 432,
+      "name": "432_name",
+      "rarity": "SSR",
+      "element": "Fire",
+      "class": "Attacker",
+      "corporation": "TETRA",
+      "squad": "PrimaDonna",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 35,
+      "coverage_range_max": 55,
+      "skill1": {
+        "id": 2432101,
+        "name": "Skill_2432101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2432201,
+        "name": "Skill_2432201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1432301,
+        "name": "Burst_1432301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10083,
+      "piece_id": 5100432,
+      "cv": "432_cv",
+      "prism_active": false
+    },
+    {
+      "id": 430,
+      "name": "430_name",
+      "rarity": "SSR",
+      "element": "Wind",
+      "class": "Supporter",
+      "corporation": "TETRA",
+      "squad": "PrimaDonna",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2430101,
+        "name": "Skill_2430101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2430201,
+        "name": "Skill_2430201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1430301,
+        "name": "Burst_1430301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10084,
+      "piece_id": 5100430,
+      "cv": "430_cv",
+      "prism_active": false
+    },
+    {
+      "id": 431,
+      "name": "431_name",
+      "rarity": "SSR",
+      "element": "Water",
+      "class": "Attacker",
+      "corporation": "TETRA",
+      "squad": "PrimaDonna",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 15,
+      "coverage_range_max": 35,
+      "skill1": {
+        "id": 2431101,
+        "name": "Skill_2431101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2431201,
+        "name": "Skill_2431201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1431301,
+        "name": "Burst_1431301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10085,
+      "piece_id": 5100431,
+      "cv": "431_cv",
+      "prism_active": false
+    },
+    {
+      "id": 220,
+      "name": "220_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Attacker",
+      "corporation": "PILGRIM",
+      "squad": "Pioneer",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 2220101,
+        "name": "Skill_2220101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1220201,
+        "name": "Skill_1220201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1220301,
+        "name": "Burst_1220301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10088,
+      "piece_id": 5100220,
+      "cv": "220_cv",
+      "prism_active": false
+    },
+    {
+      "id": 231,
+      "name": "231_name",
+      "rarity": "SSR",
+      "element": "Wind",
+      "class": "Attacker",
+      "corporation": "PILGRIM",
+      "squad": "Inherit",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 25,
+      "skill1": {
+        "id": 2231101,
+        "name": "Skill_2231101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1231201,
+        "name": "Skill_1231201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1231301,
+        "name": "Burst_1231301",
+        "description": "No description available",
+        "cooldown": 500
+      },
+      "order": 10089,
+      "piece_id": 5100231,
+      "cv": "231_cv",
+      "prism_active": false
+    },
+    {
+      "id": 221,
+      "name": "221_name",
+      "rarity": "SSR",
+      "element": "Iron",
+      "class": "Supporter",
+      "corporation": "PILGRIM",
+      "squad": "Pioneer",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2221101,
+        "name": "Skill_2221101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1221201,
+        "name": "Skill_1221201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1221301,
+        "name": "Burst_1221301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10090,
+      "piece_id": 5100221,
+      "cv": "221_cv",
+      "prism_active": false
+    },
+    {
+      "id": 222,
+      "name": "222_name",
+      "rarity": "SSR",
+      "element": "Wind",
+      "class": "Attacker",
+      "corporation": "PILGRIM",
+      "squad": "Pioneer",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 2222101,
+        "name": "Skill_2222101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2222201,
+        "name": "Skill_2222201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1222301,
+        "name": "Burst_1222301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10091,
+      "piece_id": 5100222,
+      "cv": "222_cv",
+      "prism_active": false
+    },
+    {
+      "id": 230,
+      "name": "230_name",
+      "rarity": "SSR",
+      "element": "Wind",
+      "class": "Attacker",
+      "corporation": "PILGRIM",
+      "squad": "Inherit",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 2230101,
+        "name": "Skill_2230101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2230201,
+        "name": "Skill_2230201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1230301,
+        "name": "Burst_1230301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10092,
+      "piece_id": 5100230,
+      "cv": "230_cv",
+      "prism_active": false
+    },
+    {
+      "id": 232,
+      "name": "232_name",
+      "rarity": "SSR",
+      "element": "Water",
+      "class": "Defender",
+      "corporation": "PILGRIM",
+      "squad": "Inherit",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2232101,
+        "name": "Skill_2232101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2232201,
+        "name": "Skill_2232201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1232301,
+        "name": "Burst_1232301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 10093,
+      "piece_id": 5100232,
+      "cv": "232_cv",
+      "prism_active": false
+    },
+    {
+      "id": 10,
+      "name": "10_name",
+      "rarity": "SR",
+      "element": "Electric",
+      "class": "Attacker",
+      "corporation": "ELYSION",
+      "squad": "Counters",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 2010101,
+        "name": "Skill_2010101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1010201,
+        "name": "Skill_1010201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1010301,
+        "name": "Burst_1010301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 30001,
+      "piece_id": 5100010,
+      "cv": "10_cv",
+      "prism_active": false
+    },
+    {
+      "id": 11,
+      "name": "11_name",
+      "rarity": "SR",
+      "element": "Electric",
+      "class": "Supporter",
+      "corporation": "ELYSION",
+      "squad": "Counters",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 25,
+      "skill1": {
+        "id": 2011101,
+        "name": "Skill_2011101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2011201,
+        "name": "Skill_2011201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1011301,
+        "name": "Burst_1011301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 30004,
+      "piece_id": 5100011,
+      "cv": "11_cv",
+      "prism_active": false
+    },
+    {
+      "id": 20,
+      "name": "20_name",
+      "rarity": "SR",
+      "element": "Water",
+      "class": "Defender",
+      "corporation": "ELYSION",
+      "squad": "Scouting",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 2020101,
+        "name": "Skill_2020101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2020201,
+        "name": "Skill_2020201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1020301,
+        "name": "Burst_1020301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 30005,
+      "piece_id": 5100020,
+      "cv": "20_cv",
+      "prism_active": false
+    },
+    {
+      "id": 161,
+      "name": "161_name",
+      "rarity": "SR",
+      "element": "Fire",
+      "class": "Attacker",
+      "corporation": "MISSILIS",
+      "squad": "Wardress",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 2161101,
+        "name": "Skill_2161101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2161201,
+        "name": "Skill_2161201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1161301,
+        "name": "Burst_1161301",
+        "description": "No description available",
+        "cooldown": 500
+      },
+      "order": 30010,
+      "piece_id": 5100161,
+      "cv": "161_cv",
+      "prism_active": false
+    },
+    {
+      "id": 120,
+      "name": "120_name",
+      "rarity": "SR",
+      "element": "Fire",
+      "class": "Supporter",
+      "corporation": "MISSILIS",
+      "squad": "RecallRelease",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2120101,
+        "name": "Skill_2120101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1120201,
+        "name": "Skill_1120201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1120301,
+        "name": "Burst_1120301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 30011,
+      "piece_id": 5100120,
+      "cv": "120_cv",
+      "prism_active": false
+    },
+    {
+      "id": 291,
+      "name": "291_name",
+      "rarity": "SR",
+      "element": "Wind",
+      "class": "Defender",
+      "corporation": "MISSILIS",
+      "squad": "MMR",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 25,
+      "skill1": {
+        "id": 1291101,
+        "name": "Skill_1291101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1291201,
+        "name": "Skill_1291201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1291301,
+        "name": "Burst_1291301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 30012,
+      "piece_id": 5100291,
+      "cv": "291_cv",
+      "prism_active": false
+    },
+    {
+      "id": 12,
+      "name": "12_name",
+      "rarity": "SR",
+      "element": "Iron",
+      "class": "Defender",
+      "corporation": "TETRA",
+      "squad": "Counters",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2012101,
+        "name": "Skill_2012101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1012201,
+        "name": "Skill_1012201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1012301,
+        "name": "Burst_1012301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 30013,
+      "piece_id": 5100012,
+      "cv": "12_cv",
+      "prism_active": false
+    },
+    {
+      "id": 60,
+      "name": "60_name",
+      "rarity": "SR",
+      "element": "Wind",
+      "class": "Attacker",
+      "corporation": "TETRA",
+      "squad": "LittleCannon",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2060101,
+        "name": "Skill_2060101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2060201,
+        "name": "Skill_2060201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1060301,
+        "name": "Burst_1060301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 30016,
+      "piece_id": 5100060,
+      "cv": "60_cv",
+      "prism_active": false
+    },
+    {
+      "id": 61,
+      "name": "61_name",
+      "rarity": "SR",
+      "element": "Water",
+      "class": "Supporter",
+      "corporation": "TETRA",
+      "squad": "LittleCannon",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2061101,
+        "name": "Skill_2061101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1061201,
+        "name": "Skill_1061201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1061301,
+        "name": "Burst_1061301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 30017,
+      "piece_id": 5100061,
+      "cv": "61_cv",
+      "prism_active": false
+    },
+    {
+      "id": 300,
+      "name": "300_name",
+      "rarity": "R",
+      "element": "Wind",
+      "class": "Attacker",
+      "corporation": "ELYSION",
+      "squad": "Replace",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 2300101,
+        "name": "Skill_2300101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1300201,
+        "name": "Skill_1300201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1300301,
+        "name": "Burst_1300301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 50001,
+      "piece_id": 0,
+      "cv": "300_cv",
+      "prism_active": false
+    },
+    {
+      "id": 301,
+      "name": "301_name",
+      "rarity": "R",
+      "element": "Iron",
+      "class": "Defender",
+      "corporation": "ELYSION",
+      "squad": "Replace",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 25,
+      "skill1": {
+        "id": 2301101,
+        "name": "Skill_2301101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1301201,
+        "name": "Skill_1301201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1301301,
+        "name": "Burst_1301301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 50002,
+      "piece_id": 0,
+      "cv": "301_cv",
+      "prism_active": false
+    },
+    {
+      "id": 306,
+      "name": "306_name",
+      "rarity": "R",
+      "element": "Electric",
+      "class": "Supporter",
+      "corporation": "ELYSION",
+      "squad": "Replace",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 15,
+      "coverage_range_max": 35,
+      "skill1": {
+        "id": 2306101,
+        "name": "Skill_2306101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1306201,
+        "name": "Skill_1306201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1306301,
+        "name": "Burst_1306301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 50003,
+      "piece_id": 0,
+      "cv": "306_cv",
+      "prism_active": false
+    },
+    {
+      "id": 302,
+      "name": "302_name",
+      "rarity": "R",
+      "element": "Wind",
+      "class": "Supporter",
+      "corporation": "MISSILIS",
+      "squad": "Replace",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 45,
+      "coverage_range_max": 100,
+      "skill1": {
+        "id": 2302101,
+        "name": "Skill_2302101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1302201,
+        "name": "Skill_1302201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1302301,
+        "name": "Burst_1302301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 50004,
+      "piece_id": 0,
+      "cv": "302_cv",
+      "prism_active": false
+    },
+    {
+      "id": 303,
+      "name": "303_name",
+      "rarity": "R",
+      "element": "Electric",
+      "class": "Attacker",
+      "corporation": "MISSILIS",
+      "squad": "Replace",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 35,
+      "coverage_range_max": 55,
+      "skill1": {
+        "id": 2303101,
+        "name": "Skill_2303101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1303201,
+        "name": "Skill_1303201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1303301,
+        "name": "Burst_1303301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 50005,
+      "piece_id": 0,
+      "cv": "303_cv",
+      "prism_active": false
+    },
+    {
+      "id": 307,
+      "name": "307_name",
+      "rarity": "R",
+      "element": "Water",
+      "class": "Supporter",
+      "corporation": "MISSILIS",
+      "squad": "Replace",
+      "burst_cd": "Step2",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 25,
+      "skill1": {
+        "id": 2307101,
+        "name": "Skill_2307101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1307201,
+        "name": "Skill_1307201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1307301,
+        "name": "Burst_1307301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 50006,
+      "piece_id": 0,
+      "cv": "307_cv",
+      "prism_active": false
+    },
+    {
+      "id": 304,
+      "name": "304_name",
+      "rarity": "R",
+      "element": "Water",
+      "class": "Defender",
+      "corporation": "TETRA",
+      "squad": "Replace",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 0,
+      "coverage_range_max": 0,
+      "skill1": {
+        "id": 2304101,
+        "name": "Skill_2304101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1304201,
+        "name": "Skill_1304201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1304301,
+        "name": "Burst_1304301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 50007,
+      "piece_id": 0,
+      "cv": "304_cv",
+      "prism_active": false
+    },
+    {
+      "id": 305,
+      "name": "305_name",
+      "rarity": "R",
+      "element": "Fire",
+      "class": "Supporter",
+      "corporation": "TETRA",
+      "squad": "Replace",
+      "burst_cd": "Step1",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 15,
+      "coverage_range_max": 35,
+      "skill1": {
+        "id": 2305101,
+        "name": "Skill_2305101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 1305201,
+        "name": "Skill_1305201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1305301,
+        "name": "Burst_1305301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 50008,
+      "piece_id": 0,
+      "cv": "305_cv",
+      "prism_active": false
+    },
+    {
+      "id": 308,
+      "name": "308_name",
+      "rarity": "R",
+      "element": "Iron",
+      "class": "Supporter",
+      "corporation": "TETRA",
+      "squad": "Replace",
+      "burst_cd": "Step3",
+      "weapon_type": "Unknown",
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critical_rate": 15.0,
+      "critical_damage": 150.0,
+      "coverage_range_min": 25,
+      "coverage_range_max": 45,
+      "skill1": {
+        "id": 2308101,
+        "name": "Skill_2308101",
+        "description": "No description available"
+      },
+      "skill2": {
+        "id": 2308201,
+        "name": "Skill_2308201",
+        "description": "No description available"
+      },
+      "burst_skill": {
+        "id": 1308301,
+        "name": "Burst_1308301",
+        "description": "No description available",
+        "cooldown": 1000
+      },
+      "order": 50009,
+      "piece_id": 0,
+      "cv": "308_cv",
+      "prism_active": false
+    }
+  ]
+}
