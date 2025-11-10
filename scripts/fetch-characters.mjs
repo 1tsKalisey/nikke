@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import { mkdir, readFile, stat, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
@@ -157,6 +158,7 @@ async function tryReadLocalDetail(baseDir, slug) {
 async function fetchFromApi(url) {
   console.log(`Descargando datos de ${url}...`);
   const response = await fetch(url, {
+
     headers: {
       Accept: 'application/json',
       'User-Agent': defaultUserAgent(),
@@ -169,6 +171,7 @@ async function fetchFromApi(url) {
   }
 
   const data = await response.json();
+
   return data;
 }
 
@@ -191,6 +194,7 @@ async function downloadPage(url) {
 }
 
 function extractCharacterArray(html) {
+
   const nextDataJson = extractNextData(html);
   if (!nextDataJson) {
     throw new Error('No se encontró el bloque __NEXT_DATA__ en el HTML.');
@@ -210,6 +214,7 @@ function extractCharacterArray(html) {
 
   return characters;
 }
+
 
 function extractCharacterDetailFromHtml(html) {
   const nextDataJson = extractNextData(html);
@@ -240,6 +245,7 @@ function ensureCharacterDetail(value) {
     return value;
   }
   return findCharacterObject(value);
+
 }
 
 function extractNextData(html) {
@@ -249,6 +255,7 @@ function extractNextData(html) {
 }
 
 function findCharacterArray(root) {
+
   return findMatchingNode(root, (value) =>
     Array.isArray(value) && value.length > 0 && value.every(isCharacterLike)
   );
@@ -565,6 +572,7 @@ function traverse(root, visitor) {
 function parseArgs(argv) {
   const options = { pretty: true };
 
+
   for (let index = 0; index < argv.length; index += 1) {
     const token = argv[index];
     if (token === '--from-file') {
@@ -574,6 +582,7 @@ function parseArgs(argv) {
       }
       options.fromFile = value;
       index += 1;
+
     } else if (token === '--details-from') {
       const value = argv[index + 1];
       if (!value) {
@@ -604,6 +613,7 @@ function parseArgs(argv) {
       index += 1;
     } else if (token === '--compact') {
       options.pretty = false;
+
     } else if (token === '--help' || token === '-h') {
       printHelp();
       process.exit(0);
@@ -614,6 +624,7 @@ function parseArgs(argv) {
 }
 
 function printHelp() {
+
   console.log(`Uso: node scripts/fetch-characters.mjs [opciones]\n\n` +
     `Opciones:\n` +
     `  --from-file <ruta>       Usa un archivo HTML previamente descargado de nikke.gg/characters.\n` +
@@ -627,11 +638,13 @@ function printHelp() {
 
 function defaultUserAgent() {
   return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/127 Safari/537.36';
+
 }
 
 function resolveCwd(targetPath) {
   return resolve(process.cwd(), targetPath);
 }
+
 
 async function sleep(ms) {
   if (!ms) {
@@ -639,6 +652,7 @@ async function sleep(ms) {
   }
   return new Promise((resolvePromise) => setTimeout(resolvePromise, ms));
 }
+
 
 main().catch((error) => {
   console.error('No se pudo completar la descarga:', error.message);
