@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rapi Detail</title>
+  </head>
+  <body>
+    <div id="__next"></div>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": {
+          "pageProps": {
+            "character": {
+              "slug": "rapi",
+              "nikkeName": "Rapi",
+              "class": "Defender",
+              "code": "D-01",
+              "burst": "II",
+              "buffs": ["DEF Up", "Taunt"],
+              "weapon": "Assault Rifle",
+              "avatar": "https://example.com/rapi.png",
+              "role": "Defender",
+              "roleSimple": "Tank",
+              "specialBuff": "Crea un escudo que absorbe daño",
+              "specialBuffCondition": "Al activar la habilidad 2",
+              "specialBuff2": "Incrementa la provocación",
+              "specialBuff2Condition": "Cuando la vida es inferior al 50%",
+              "debuffs": ["Reducción de ATK"],
+              "synergyConstant": "x1.2",
+              "burstCooldown": 40,
+              "burstCooldownAuto": 20,
+              "rarity": "SR",
+              "manufacturer": "Elysion",
+              "squad": "Counters",
+              "type": "Defender",
+              "element": "Fire",
+              "burstType": "II",
+              "stats": {
+                "power": 3800,
+                "hp": 98000,
+                "atk": 6120,
+                "def": 4200
+              },
+              "weaponStats": {
+                "weaponType": "Assault Rifle",
+                "ammo": 60,
+                "atkPerHit": 102,
+                "fullMagazineDamage": 6120,
+                "chargeTime": "-",
+                "fullChargeMagnitude": "-",
+                "fullChargeTotalDamage": "-",
+                "totalDualWieldingDamage": "-",
+                "coreDamage": 9180,
+                "reloadTime": 1.8,
+                "controlMode": "Manual"
+              },
+              "skills": [
+                {
+                  "skillName": "Overwatch",
+                  "skillRank": "Skill 1",
+                  "type": "Active",
+                  "cooldown": "20s",
+                  "trigger": "Al usar",
+                  "triggerQuantity": 1,
+                  "effect": "Aumenta DEF de todos los aliados",
+                  "magnitude": "20%",
+                  "maxStacks": 1,
+                  "magnitudeProperty": "DEF",
+                  "target": "Todos los aliados",
+                  "targetCondition": "-",
+                  "casterCondition": "-",
+                  "duration": "10s"
+                },
+                {
+                  "skillName": "Guardian Shield",
+                  "skillRank": "Skill 2",
+                  "type": "Passive",
+                  "cooldown": "-",
+                  "trigger": "Al recibir daño",
+                  "triggerQuantity": 1,
+                  "effect": "Genera escudo",
+                  "magnitude": "15% del HP",
+                  "maxStacks": 1,
+                  "target": "Self",
+                  "duration": "5s"
+                },
+                {
+                  "skillName": "Counter Barrier",
+                  "skillRank": "Burst",
+                  "type": "Burst",
+                  "cooldown": "40s",
+                  "trigger": "Burst",
+                  "effect": "Provoca y aumenta DEF",
+                  "magnitude": "30%",
+                  "target": "Self",
+                  "duration": "15s"
+                }
+              ]
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

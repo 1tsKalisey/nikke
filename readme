@@ -19,13 +19,7 @@ node scripts/fetch-characters.mjs
 
 Esto descargará el JSON remoto y lo almacenará en `public/data/nikke-characters.json`. La aplicación detecta automáticamente este archivo y lo usa como fuente principal, evitando nuevas descargas.
 
-> **Sugerencia:** si `nikke.gg` no está disponible desde tu red, puedes descargar el HTML de <https://nikke.gg/characters> manualmente y procesarlo sin conexión:
 
-```bash
-node scripts/fetch-characters.mjs --from-file ./descargas/characters.html
-```
-
-El script intentará primero la API pública (`https://nikke.gg/api/characters`) y, en caso de error, leerá el bloque `__NEXT_DATA__` del HTML para extraer la lista completa de Nikkes.
 
 ## Estructura del proyecto
 
@@ -36,13 +30,14 @@ public/
   styles.css      # Estilos del planner
   data/
     sample-characters.json
-scripts/
-  fetch-characters.mjs (ver más abajo)
+
 ```
 
 ## Script de importación
 
-El script `scripts/fetch-characters.mjs` descarga todos los personajes y genera un JSON listo para usar en la aplicación. El archivo no se ejecuta automáticamente para evitar errores en entornos sin acceso a la red.
+
+El script `scripts/fetch-characters.mjs` descarga todos los personajes, visita cada detalle para extraer estadísticas y habilidades y genera un JSON listo para usar en la aplicación. El archivo no se ejecuta automáticamente para evitar errores en entornos sin acceso a la red.
+
 
 ## Nota sobre la fuente de datos
 
